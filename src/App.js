@@ -77,7 +77,9 @@ function App() {
             );
           })}
         </div>
-        <button onClick={resetDoors}>Reset doors</button>
+        <button className="resetbutton" onClick={resetDoors}>
+          Reset doors
+        </button>
       </div>
     </div>
   );
